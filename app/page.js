@@ -17,10 +17,7 @@ export default function Home() {
   const form = useRef()
   const el = useRef()
 
-
-
-
-
+  
   const Name = (e) => {
 
     setName(e.target.value);
@@ -66,7 +63,6 @@ export default function Home() {
     };
   }, []);
   
-
   const Contact = (e) => {
     e.preventDefault();
 
