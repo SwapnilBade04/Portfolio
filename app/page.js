@@ -65,6 +65,7 @@ export default function Home() {
       typed.destroy();
     };
   }, []);
+  
 
   const Contact = (e) => {
     e.preventDefault();
