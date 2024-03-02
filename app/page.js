@@ -140,7 +140,7 @@ export default function Home() {
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">
-              <Image src="/Swapnil.png" alt="" width={10000} height={10000} />
+              <Image src="./Swapnil.png" alt="" width={10000} height={10000} />
             </div>
             <div className="column right">
               <div className="text">
@@ -149,7 +149,7 @@ export default function Home() {
               <p>
                 Graduate Student at Stony Brook Unversity working towards my masters degree in Computer Engineering. I have 3 year's of experience in fullstack development working for Europes biggest telecommunication client British telecommunication.
               </p>
-              <a href="/Swapnil_Bade_Resume.pdf" target="_blank" download={""}>Download Resume</a>
+              <a href="./Swapnil_Bade_Resume.pdf" target="_blank" download={""}>Download Resume</a>
             </div>
           </div>
         </div>
